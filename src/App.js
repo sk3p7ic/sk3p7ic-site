@@ -1,7 +1,14 @@
 import "./App.css";
+import { NavbarComponent } from "./components/navbar/navbar";
+import { HomePage } from "./pages/home/home";
 
 function App() {
-  return <div className="text-3xl underline">Hello world!</div>;
+  return (
+    <>
+      <NavbarComponent></NavbarComponent>
+      <HomePage></HomePage>
+    </>
+  );
 }
 
 export default App;
