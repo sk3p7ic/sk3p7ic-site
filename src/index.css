@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-  @apply bg-yellow-100 text-stone-800;
+  @apply bg-amber-100 text-stone-800;
 }
