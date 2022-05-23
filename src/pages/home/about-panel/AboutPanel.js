@@ -78,12 +78,13 @@ export const AboutPanel = () => {
 
   return (
     <div className="w-full h- full flex flex-col">
-      <div className="p-4 flex gap-6 justify-center">
+      <div className="p-1 sm:p-4 flex sm:gap-6 justify-center">
         {buttons.map((elem, i) => (
           <button
             className={
               "p-1 rounded-md border-4 border-stone-900 drop-shadow-6px transition-all" +
               " hover:rounded-xl hover:drop-shadow-10px hover:-translate-y-2 " +
+              " scale-50 sm:scale-100 " +
               elem[1]
             }
             key={i}
