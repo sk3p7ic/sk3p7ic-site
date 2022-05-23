@@ -3,9 +3,9 @@ import { AboutPanel } from "./about-panel/AboutPanel";
 
 export const HomePage = () => {
   return (
-    <div className="flex-grow w-full h-full p-32 flex flex-col md:flex-row md:gap-4">
+    <div className="flex-grow w-full h-full p-16 xl:p-32 flex flex-col items-center xl:items-stretch gap-8 xl:flex-row md:gap-4">
       <div className="flex flex-col gap-8 justify-center w-min">
-        <h1 className="font-telex text-6xl whitespace-nowrap">
+        <h1 className="font-telex text-2xl sm:text-5xl md:text-6xl whitespace-nowrap">
           Programmer / Web Dev.
           <br />
           Student. Coffee Addict.
