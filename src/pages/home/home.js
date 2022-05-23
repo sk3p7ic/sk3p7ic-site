@@ -1,6 +1,5 @@
-import { MdCode } from "react-icons/md";
-
 import { FunkyButton } from "../../components/button/button";
+import { AboutPanel } from "./about-panel/AboutPanel";
 
 export const HomePage = () => {
   return (
@@ -23,13 +22,14 @@ export const HomePage = () => {
         </div>
       </div>
       <div className="flex-grow flex justify-center">
-        <div className="w-3/4 p-8 border-8 rounded-3xl border-stone-900 bg-amber-50 drop-shadow-[10px_10px_0px_rgba(0,0,0,1)]">
+        <div className="w-3/4 p-8 border-8 rounded-3xl border-stone-900 bg-amber-50 ">
           <div className="flex flex-col font-telex text-xl">
             <p className="text-justify">
               A computer science student and coffee lover from San Antonio,
               Texas with a background in Python and Java, as well as HTML, CSS,
               and Javascript. Somewhat familiar with Angular and learning React.
             </p>
+            <AboutPanel />
           </div>
         </div>
       </div>
