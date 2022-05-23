@@ -22,7 +22,7 @@ export const NavbarComponent = () => {
   const baseClasses = "transition-all hover:scale-110 ";
 
   return (
-    <div className="w-screen lg:px-32 flex justify-between items-center">
+    <div className="w-screen pr-4 md:pr-8 lg:px-32 flex justify-between items-center">
       <div className="px-6 py-4 lg:px-12 lg:py-8 bg-stone-900 text-stone-100 lg:rounded-b-md">
         <a className="font-tech text-5xl" href="/">
           sk3p7ic
