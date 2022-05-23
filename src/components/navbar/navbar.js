@@ -11,7 +11,7 @@ export const NavbarComponent = () => {
   const doChangePage = (event, page) => {
     event.preventDefault();
     setCurrentPage(page);
-    routerNavigate("/" + page, { replace: true });
+    routerNavigate(page, { replace: true });
   };
 
   const baseClasses = "transition-all hover:scale-110 ";
