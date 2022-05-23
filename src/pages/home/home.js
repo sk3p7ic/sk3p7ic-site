@@ -24,7 +24,7 @@ export const HomePage = () => {
       <div className="flex-grow flex 2xl:justify-center">
         <div className="flex-grow w-full xl:flex-grow-0 2xl:w-3/4 p-8 border-8 rounded-3xl border-stone-900 bg-amber-50 ">
           <div className="flex flex-col font-telex text-xl">
-            <p className="text-justify">
+            <p className="md:text-justify">
               A computer science student and coffee lover from San Antonio,
               Texas with a background in Python and Java, as well as HTML, CSS,
               and Javascript. Somewhat familiar with Angular and learning React.
