@@ -16,7 +16,7 @@ export const ProjectCard = (props) => {
         />
       </a>
       <p className="font-telex text-lg">{desc}</p>
-      <div className="flex-grow p-8 flex flex-col justify-end text-center">
+      <div className="flex-grow p-8 xl:p-12 flex flex-col justify-end text-center">
         <FunkyButton href={href} buttonColor="bg-purple-400">
           View Me!
         </FunkyButton>
