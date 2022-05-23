@@ -1,3 +1,5 @@
 export const HomePage = () => {
-  return <div>Home Page</div>;
+  return (
+    <div className="flex-grow w-screen h-full flex items-center">Home Page</div>
+  );
 };
