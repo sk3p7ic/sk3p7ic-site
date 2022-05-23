@@ -6,7 +6,9 @@ export const CardGroup = (props) => {
       <h1 className="p-4 font-telex text-2xl bg-emerald-400 border-b-8 border-stone-900">
         {groupTitle}
       </h1>
-      <div className="p-4 flex-grow flex gap-4 bg-amber-50">{groupEntries}</div>
+      <div className="p-4 flex-grow flex flex-col xl:flex-row gap-4 bg-amber-50">
+        {groupEntries}
+      </div>
     </div>
   );
 };

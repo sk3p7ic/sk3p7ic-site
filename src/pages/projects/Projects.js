@@ -3,8 +3,8 @@ import { ProjectCard } from "./project-card/ProjectCard";
 
 export const ProjectsPage = () => {
   return (
-    <div className="flex-grow w-full h-full px-32 py-12 flex flex-col">
-      <h1 className="font-telex text-6xl">Constantly Working.</h1>
+    <div className="flex-grow w-full h-full p-16 xl:px-32 xl:py-12 flex flex-col">
+      <h1 className="font-telex text-3xl lg:text-6xl">Constantly Working.</h1>
       <div className="p-4 flex-grow flex">
         <CardGroup title="Web Dev">
           <ProjectCard
