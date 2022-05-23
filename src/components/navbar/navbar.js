@@ -32,9 +32,11 @@ export const NavbarComponent = () => {
       <div className="flex gap-8 pr-4 lg:pr-0">
         {PAGES.map((page, i) => (
           <button
-            className={baseClasses + (currentPage === page ? "underline" : "")}
+            className={
+              baseClasses + (currentPage === page[0] ? "underline" : "")
+            }
             key={i}
-            onClick={(e) => doChangePage(e, page)}
+            onClick={(e) => doChangePage(e, page[0])}
           >
             <p className="hidden sm:block">{page[0]}</p>
             <span className="block sm:hidden">{page[1]}</span>
