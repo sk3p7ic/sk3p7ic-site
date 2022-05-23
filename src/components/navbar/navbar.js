@@ -14,6 +14,8 @@ export const NavbarComponent = () => {
     routerNavigate("/" + page, { replace: true });
   };
 
+  const baseClasses = "transition-all hover:scale-110 ";
+
   return (
     <div className="w-screen px-32 flex justify-between items-center">
       <div className="px-12 py-8 bg-stone-900 text-stone-100">
@@ -25,7 +27,7 @@ export const NavbarComponent = () => {
       <div className="flex gap-8">
         {PAGES.map((page, i) => (
           <button
-            className={currentPage === page ? "underline" : ""}
+            className={baseClasses + (currentPage === page ? "underline" : "")}
             key={i}
             onClick={(e) => doChangePage(e, page)}
           >
