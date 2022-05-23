@@ -1,8 +1,13 @@
 import { useNavigate } from "react-router-dom";
 import { useNavigation } from "../../contexts/NavContext";
+import { MdHome, MdCode, MdPerson } from "react-icons/md";
 import "./navbar.css";
 
-const PAGES = ["home", "projects", "contact"];
+const PAGES = [
+  ["home", <MdHome />],
+  ["projects", <MdCode />],
+  ["contact", <MdPerson />],
+];
 
 export const NavbarComponent = () => {
   const { currentPage, setCurrentPage } = useNavigation();
@@ -31,7 +36,8 @@ export const NavbarComponent = () => {
             key={i}
             onClick={(e) => doChangePage(e, page)}
           >
-            {page}
+            <p className="hidden sm:block">{page[0]}</p>
+            <span className="block sm:hidden">{page[1]}</span>
           </button>
         ))}
       </div>
