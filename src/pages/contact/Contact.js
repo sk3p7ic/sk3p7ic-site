@@ -27,7 +27,7 @@ export const ContactPage = () => {
             text="@FizzedMr"
           />
           <SocialButton
-            href="https://linkedin.com/joshua-ibrom"
+            href="https://linkedin.com/in/joshua-ibrom"
             buttonColor="bg-purple-400"
             icon={<FaLinkedin size={64} />}
             text="@Joshua-Ibrom"
