@@ -18,7 +18,7 @@ export const NavbarComponent = () => {
 
   return (
     <div className="w-screen px-32 flex justify-between items-center">
-      <div className="px-12 py-8 bg-stone-900 text-stone-100">
+      <div className="px-12 py-8 bg-stone-900 text-stone-100 rounded-b-md">
         <a className="font-tech text-5xl" href="/">
           sk3p7ic
         </a>
