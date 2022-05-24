@@ -22,7 +22,7 @@ export const HomePage = () => {
         </div>
       </div>
       <div className="flex-grow flex 2xl:justify-center">
-        <div className="flex-grow w-full xl:flex-grow-0 2xl:w-3/4 p-8 border-8 rounded-3xl border-stone-900 bg-amber-50 ">
+        <div className="flex-grow w-full xl:flex-grow-0 2xl:w-3/4 p-8 border-8 rounded-3xl border-stone-900 bg-amber-50 overflow-scroll">
           <div className="flex flex-col font-telex text-xl">
             <p className="md:text-justify">
               A computer science student and coffee lover from San Antonio,
