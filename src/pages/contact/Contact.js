@@ -1,8 +1,18 @@
 import { SocialButton } from "./social-button/SocialButton";
 import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { MdWeb } from "react-icons/md";
+import { useNavigation } from "../../contexts/NavContext";
+import { useEffect } from "react";
 
 export const ContactPage = () => {
+  const setCurrentPage = useNavigation()["setCurrentPage"];
+
+  useEffect(() => {
+    const unsubscribe = setCurrentPage("contact");
+
+    return unsubscribe;
+  }, [setCurrentPage]);
+
   return (
     <div className="flex-grow w-full h-full p-8 lg:px-32 lg:py-12">
       <div className="flex flex-col items-center md:items-stretch font-telex">
