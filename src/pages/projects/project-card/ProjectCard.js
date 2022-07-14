@@ -6,7 +6,7 @@ export const ProjectCard = (props) => {
   const imgSrc = props.src;
   const desc = props.children;
   return (
-    <div className="p-2 flex flex-col border-8 border-stone-900 rounded-xl transition-all hover:scale-[1.01]">
+    <div className="p-2 xl:w-1/3 flex flex-col border-8 border-stone-900 rounded-xl transition-all hover:scale-[1.01]">
       <h1 className="font-telex text-2xl underline">{title}</h1>
       <a href={href}>
         <img
