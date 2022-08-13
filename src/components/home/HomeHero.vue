@@ -1,8 +1,10 @@
 <template>
   <div class="h-screen grid grid-cols-1 lg:grid-cols-2 items-center">
-    <div class="flex flex-col gap-2 px-2 lg:mx-8">
-      <div class="flex flex-col gap-4 p-4 bg-gray-900 text-gray-100 rounded-lg">
-        <h1 class="font-inter text-6xl lg:text-8xl font-bold">
+    <div class="flex flex-col gap-2 px-2 mx-2 lg:mx-8">
+      <div
+        class="flex flex-col gap-4 p-4 lg:p-2 xl:p-4 lg:py-8 bg-gray-900 text-gray-100 rounded-lg"
+      >
+        <h1 class="font-inter text-6xl lg:text-7xl xl:text-8xl font-bold">
           You need a website that&apos;s
           <span class="text-fuchsia-600">impactful</span>.
         </h1>
