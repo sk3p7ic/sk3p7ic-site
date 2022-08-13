@@ -13,7 +13,7 @@
             <a
               :href="page.href"
               :class="{ 'hover:text-fuchsia-400': page.name !== $route.name }"
-              class="text-lg transition-colors"
+              class="font-inter text-lg transition-colors"
               >{{ page.title }}</a
             >
           </li>
