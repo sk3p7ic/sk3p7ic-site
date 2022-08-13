@@ -11,16 +11,16 @@
         </h3>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
-        <button
-          class="p-4 bg-cyan-400 font-inter font-semibold text-xl rounded-lg"
+        <a
+          class="p-4 bg-cyan-400 font-inter font-semibold text-xl text-center rounded-lg"
         >
           Contact Me
-        </button>
-        <button
-          class="p-4 border bg-cyan-50 border-cyan-400 text-cyan-800 font-inter font-semibold text-xl rounded-lg"
+        </a>
+        <a
+          class="p-4 border bg-cyan-50 border-cyan-400 text-cyan-800 font-inter font-semibold text-xl text-center rounded-lg"
         >
           View My Work
-        </button>
+        </a>
       </div>
     </div>
     <div>Some graphic.</div>
