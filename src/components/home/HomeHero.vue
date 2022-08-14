@@ -18,12 +18,12 @@
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
         <a
-          class="p-4 bg-cyan-400 font-inter font-semibold text-xl text-center rounded-lg"
+          class="p-4 bg-cyan-400 font-inter font-semibold text-xl text-center rounded-lg hover:bg-cyan-300 transition-colors"
         >
           Contact Me
         </a>
         <a
-          class="p-4 border bg-cyan-50 border-cyan-400 text-cyan-800 font-inter font-semibold text-xl text-center rounded-lg"
+          class="p-4 border bg-cyan-50 border-cyan-400 text-cyan-800 font-inter font-semibold text-xl text-center rounded-lg opacity-80 hover:opacity-100 transition-opacity"
         >
           View My Work
         </a>
