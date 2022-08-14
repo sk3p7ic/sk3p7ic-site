@@ -4,7 +4,7 @@
       Experienced in the industry standards.
     </h2>
     <div
-      class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 align-center"
+      class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 lg:gap-10 align-center"
     >
       <div
         v-for="(tech, index) of techs"
