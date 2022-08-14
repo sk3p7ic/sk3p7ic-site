@@ -1,7 +1,8 @@
 <template>
   <div class="bg-gray-100 text-gray-800">
-    <HomeHero />
+    <HomeHero centered />
     <TechnologyDividerSection />
+    <div style="height: 2000px"></div>
   </div>
 </template>
 
