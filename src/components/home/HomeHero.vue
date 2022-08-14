@@ -40,6 +40,7 @@ const props = defineProps({ centered: Boolean });
 .hero-img {
   --background-url: url("../../assets/hero-bg-landscape.jpg");
   background-image: var(--background-url);
+  background-attachment: scroll;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -47,6 +48,7 @@ const props = defineProps({ centered: Boolean });
 @media (min-width: 768px) {
   .hero-img {
     --background-url: url("../../assets/hero-bg-landscape.jpg");
+    background-attachment: fixed;
   }
 }
 </style>
