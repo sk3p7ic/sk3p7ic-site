@@ -22,10 +22,16 @@
 import { ref } from "@vue/reactivity";
 import {
   AngularIcon,
+  BootstrapIcon,
+  FigmaIcon,
+  FirebaseIcon,
   FlutterIcon,
+  GitIcon,
+  LinuxIcon,
   MongodbIcon,
   NodedotjsIcon,
   ReactIcon,
+  TailwindcssIcon,
   VuedotjsIcon,
 } from "vue3-simple-icons";
 
@@ -36,6 +42,12 @@ const techs = ref([
   { icon: NodedotjsIcon, name: "Node.js" },
   { icon: MongodbIcon, name: "MongoDB" },
   { icon: FlutterIcon, name: "Flutter" },
+  { icon: TailwindcssIcon, name: "Tailwind CSS" },
+  { icon: BootstrapIcon, name: "Bootstrap" },
+  { icon: FirebaseIcon, name: "Firebase" },
+  { icon: LinuxIcon, name: "Linux" },
+  { icon: GitIcon, name: "Git" },
+  { icon: FigmaIcon, name: "Figma" },
 ]);
 </script>
 
