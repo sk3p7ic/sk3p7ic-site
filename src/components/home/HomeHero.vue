@@ -1,6 +1,6 @@
 <template>
-  <div class="h-screen grid grid-cols-1 lg:grid-cols-2 items-center">
-    <div class="flex flex-col gap-2 px-2 mx-2 lg:mx-8">
+  <div class="h-screen flex items-center">
+    <div class="w-full lg:w-1/2 flex flex-col gap-2 px-2 mx-2 lg:mx-8">
       <div
         class="flex flex-col gap-8 px-4 py-8 xl:px-4 lg:py-24 bg-gray-900 text-gray-100 rounded-lg"
       >
@@ -25,7 +25,6 @@
         </a>
       </div>
     </div>
-    <div>Some graphic.</div>
   </div>
 </template>
 
