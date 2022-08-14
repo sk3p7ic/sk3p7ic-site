@@ -1,5 +1,8 @@
 <template>
-  <div class="h-screen flex items-center hero-img">
+  <div
+    class="h-screen flex items-center hero-img"
+    :class="{ 'justify-center text-center': props.centered }"
+  >
     <!-- Background image courtesy of: https://unsplash.com/photos/J6AVrCvRki0?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink -->
     <div class="w-full lg:w-1/2 flex flex-col gap-2 px-2 mx-2 lg:mx-8">
       <div
@@ -29,7 +32,10 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+const props = defineProps({ centered: Boolean });
+console.log(props);
+</script>
 
 <style scoped>
 .hero-img {
