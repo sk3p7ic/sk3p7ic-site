@@ -2,7 +2,7 @@
   <div class="h-screen grid grid-cols-1 lg:grid-cols-2 items-center">
     <div class="flex flex-col gap-2 px-2 mx-2 lg:mx-8">
       <div
-        class="flex flex-col gap-4 px-4 py-8 xl:px-4 lg:py-24 bg-gray-900 text-gray-100 rounded-lg"
+        class="flex flex-col gap-8 px-4 py-8 xl:px-4 lg:py-24 bg-gray-900 text-gray-100 rounded-lg"
       >
         <h1 class="font-inter text-6xl lg:text-7xl xl:text-8xl font-bold">
           You need a website that&apos;s
