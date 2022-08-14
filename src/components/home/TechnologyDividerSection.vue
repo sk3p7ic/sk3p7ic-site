@@ -19,7 +19,6 @@
 </template>
 
 <script setup>
-import { ref } from "@vue/reactivity";
 import {
   AngularIcon,
   BootstrapIcon,
@@ -35,7 +34,7 @@ import {
   VuedotjsIcon,
 } from "vue3-simple-icons";
 
-const techs = ref([
+const techs = [
   { icon: ReactIcon, name: "React" },
   { icon: AngularIcon, name: "Angular" },
   { icon: VuedotjsIcon, name: "Vue" },
@@ -48,7 +47,7 @@ const techs = ref([
   { icon: LinuxIcon, name: "Linux" },
   { icon: GitIcon, name: "Git" },
   { icon: FigmaIcon, name: "Figma" },
-]);
+];
 </script>
 
 <style></style>
