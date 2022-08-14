@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="fixed w-full px-4 lg:px-24 xl:px-72 py-2 lg:py-4 font-inter bg-gray-800 text-gray-100"
+    class="fixed w-full px-4 lg:px-24 xl:px-72 py-2 lg:py-4 font-inter bg-gray-800 text-gray-100 z-10"
   >
     <div class="flex flex-row justify-between items-center">
       <h1 class="text-3xl font-extrabold text-fuchsia-400">sk3p7ic</h1>
@@ -34,7 +34,7 @@
           leave-to-class="opacity-0 translate-y-1"
         >
           <PopoverPanel
-            class="absolute left-0 top-14 w-screen z-10 p-4 bg-gray-900"
+            class="absolute left-0 top-14 w-screen z-20 p-4 bg-gray-900"
           >
             <template v-for="(page, index) of pages" :key="index">
               <a
