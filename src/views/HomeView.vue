@@ -1,5 +1,5 @@
 <template>
-  <div class="flex-grow-1 max-h-screen overflow-auto bg-gray-100 text-gray-800">
+  <div class="bg-gray-100 text-gray-800">
     <HomeHero />
     <TechnologyDividerSection />
   </div>

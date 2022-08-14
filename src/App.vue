@@ -4,7 +4,7 @@ import MainNavbar from "./components/MainNavbar.vue";
 </script>
 
 <template>
-  <div class="w-screen h-screen flex flex-col font-nunito">
+  <div class="font-nunito">
     <MainNavbar />
     <RouterView />
   </div>
