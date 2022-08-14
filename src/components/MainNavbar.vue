@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="w-full px-4 lg:px-24 xl:px-72 py-2 lg:py-4 font-inter bg-gray-800 text-gray-100"
+    class="fixed w-full px-4 lg:px-24 xl:px-72 py-2 lg:py-4 font-inter bg-gray-800 text-gray-100"
   >
     <div class="flex flex-row justify-between items-center">
       <h1 class="text-3xl font-extrabold text-fuchsia-400">sk3p7ic</h1>
