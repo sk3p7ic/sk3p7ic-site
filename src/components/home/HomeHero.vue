@@ -21,11 +21,13 @@
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
         <a
+          href="/contact"
           class="p-4 bg-cyan-400 font-inter font-semibold text-xl text-center rounded-lg hover:bg-cyan-300 transition-all bg-opacity-90 hover:opacity-100 cursor-pointer"
         >
           Contact Me
         </a>
         <a
+          href="/projects"
           class="p-4 bg-cyan-100 font-inter font-semibold text-xl text-center rounded-lg hover:bg-cyan-300 transition-all bg-opacity-75 hover:opacity-100 cursor-pointer"
         >
           View My Work
