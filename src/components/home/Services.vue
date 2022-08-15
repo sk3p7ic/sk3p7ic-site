@@ -60,6 +60,7 @@
   </div>
   <div class="py-8 md:px-8">
     <DesignService />
+    <DevelopService />
   </div>
 </template>
 
@@ -70,6 +71,7 @@ import {
   CloudIcon,
 } from "@heroicons/vue/outline";
 import DesignService from "./servicelist/DesignService.vue";
+import DevelopService from "./servicelist/DevelopService.vue";
 </script>
 
 <style></style>
