@@ -21,12 +21,12 @@
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
         <a
-          class="p-4 bg-cyan-400 font-inter font-semibold text-xl text-center rounded-lg hover:bg-cyan-300 transition-all bg-opacity-90 hover:opacity-100"
+          class="p-4 bg-cyan-400 font-inter font-semibold text-xl text-center rounded-lg hover:bg-cyan-300 transition-all bg-opacity-90 hover:opacity-100 cursor-pointer"
         >
           Contact Me
         </a>
         <a
-          class="p-4 border bg-cyan-50 border-cyan-400 text-cyan-800 font-inter font-semibold text-xl text-center rounded-lg bg-opacity-80 hover:opacity-100 transition-opacity"
+          class="p-4 bg-cyan-100 font-inter font-semibold text-xl text-center rounded-lg hover:bg-cyan-300 transition-all bg-opacity-75 hover:opacity-100 cursor-pointer"
         >
           View My Work
         </a>
