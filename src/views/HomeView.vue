@@ -15,12 +15,14 @@
       >
     </div>
   </div>
+  <SiteFooter />
 </template>
 
 <script setup>
 import HomeHero from "../components/home/HomeHero.vue";
 import TechnologyDividerSection from "../components/home/TechnologyDividerSection.vue";
 import Services from "../components/home/Services.vue";
+import SiteFooter from "../components/SiteFooter.vue";
 </script>
 
 <style></style>
