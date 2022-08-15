@@ -9,6 +9,7 @@
       class="py-4 xl:py-8 grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-12 xl:gap-24"
     >
       <a
+        @click="scrollTo('#service-design')"
         class="group p-4 flex flex-col items-center bg-gray-200 hover:bg-gray-50 border-4 border-gray-800 rounded-xl transition-all cursor-pointer"
       >
         <TemplateIcon
@@ -25,6 +26,7 @@
         </p>
       </a>
       <a
+        @click="scrollTo('#service-develop')"
         class="group p-4 flex flex-col items-center bg-gray-200 hover:bg-gray-50 border-4 border-gray-800 rounded-xl transition-all cursor-pointer"
       >
         <DesktopComputerIcon
@@ -41,6 +43,7 @@
         </p>
       </a>
       <a
+        @click="scrollTo('#service-deploy')"
         class="group p-4 flex flex-col items-center bg-gray-200 hover:bg-gray-50 border-4 border-gray-800 rounded-xl transition-all cursor-pointer"
       >
         <CloudIcon
@@ -74,6 +77,10 @@ import {
 import DesignService from "./servicelist/DesignService.vue";
 import DevelopService from "./servicelist/DevelopService.vue";
 import DeployService from "./servicelist/DeployService.vue";
+
+const scrollTo = (elemId) => {
+  document.querySelector(elemId).scrollIntoView({ behavior: "smooth" });
+};
 </script>
 
 <style></style>
