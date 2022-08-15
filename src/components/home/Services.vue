@@ -1,9 +1,13 @@
 <template>
-  <div class="p-4 xl:px-24 xl:py-8">
+  <div
+    class="p-4 xl:px-24 xl:py-8 bg-gradient-to-br from-cyan-400 to-fuchsia-400 via-blue-500"
+  >
     <h1 class="font-inter font-bold text-3xl text-center">
       Need help building your dream?
     </h1>
-    <div class="py-4 xl:py-8 grid grid-cols-1 xl:grid-cols-3 gap-4 xl:gap-24">
+    <div
+      class="py-4 xl:py-8 grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-12 xl:gap-24"
+    >
       <a
         class="group p-4 flex flex-col items-center bg-gray-200 hover:bg-gray-50 border-4 border-gray-800 rounded-xl transition-all cursor-pointer"
       >
@@ -54,6 +58,9 @@
       </a>
     </div>
   </div>
+  <div class="py-8 md:px-8">
+    <DesignService />
+  </div>
 </template>
 
 <script setup>
@@ -62,6 +69,7 @@ import {
   DesktopComputerIcon,
   CloudIcon,
 } from "@heroicons/vue/outline";
+import DesignService from "./servicelist/DesignService.vue";
 </script>
 
 <style></style>
