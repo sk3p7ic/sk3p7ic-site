@@ -10,14 +10,22 @@
       <div class="px-6 lg:p-4">
         <h1 class="font-inter font-bold text-3xl">Develop</h1>
         <h3 class="font-inter text-lg border-b-2 border-b-gray-800 mb-2">
-          Have an idea in your head that you&apos;re wanting turned into
-          something you can show others?
+          Do you already have a design made and need someone to build it?<br />
+          Are you looking to turn an idea into a built product?
         </h3>
         <ul class="list-disc pl-6">
-          <li>Reach out to me and I can help work with you to do just that.</li>
           <li>
-            I&apos;ll help design your website or other project in Figma, to
-            include versions for both mobile and desktop.
+            I can work with pre-made designs or help design something new and
+            build it for you.
+          </li>
+          <li>
+            I&apos;ll work with you to build out your product just the way you
+            like. That&apos;s the way it should be.
+          </li>
+          <li>
+            I can assist with building out your frontend (what others see), as
+            well the backend of your website, such as a database, if the project
+            requires.
           </li>
         </ul>
       </div>

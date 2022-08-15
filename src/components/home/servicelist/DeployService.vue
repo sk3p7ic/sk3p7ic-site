@@ -10,14 +10,17 @@
       <div class="px-6 lg:p-4">
         <h1 class="font-inter font-bold text-3xl">Deploy</h1>
         <h3 class="font-inter text-lg border-b-2 border-b-gray-800 mb-2">
-          Have an idea in your head that you&apos;re wanting turned into
-          something you can show others?
+          Have an awesome website but don&apos;t know how to get it online?
         </h3>
         <ul class="list-disc pl-6">
-          <li>Reach out to me and I can help work with you to do just that.</li>
           <li>
-            I&apos;ll help design your website or other project in Figma, to
-            include versions for both mobile and desktop.
+            I&apos;ll help you take the website and any other neccesary
+            components and get it deployed (put online) so others can see it!
+          </li>
+          <li>
+            I will work with you to find the right hosting solutions to ensure
+            that you save time and money--some of the most important things for
+            someone runnning a business, after people.
           </li>
         </ul>
       </div>

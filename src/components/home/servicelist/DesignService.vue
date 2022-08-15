@@ -14,10 +14,17 @@
           something you can show others?
         </h3>
         <ul class="list-disc pl-6">
-          <li>Reach out to me and I can help work with you to do just that.</li>
+          <li>
+            Reach out to me and I can help work with you to turn that idea into
+            a reality.
+          </li>
           <li>
             I&apos;ll help design your website or other project in Figma, to
             include versions for both mobile and desktop.
+          </li>
+          <li>
+            I can then work with this design to build it out, or you can take
+            the design to another developer.
           </li>
         </ul>
       </div>
