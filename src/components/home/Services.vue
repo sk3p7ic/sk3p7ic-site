@@ -58,9 +58,10 @@
       </a>
     </div>
   </div>
-  <div class="py-8 md:px-8">
+  <div class="py-8 md:px-8 xl:px-48">
     <DesignService />
     <DevelopService />
+    <DeployService />
   </div>
 </template>
 
@@ -72,6 +73,7 @@ import {
 } from "@heroicons/vue/outline";
 import DesignService from "./servicelist/DesignService.vue";
 import DevelopService from "./servicelist/DevelopService.vue";
+import DeployService from "./servicelist/DeployService.vue";
 </script>
 
 <style></style>
