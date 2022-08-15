@@ -15,7 +15,7 @@
       >
     </div>
   </div>
-  <SiteFooter />
+  <site-footer />
 </template>
 
 <script setup>
