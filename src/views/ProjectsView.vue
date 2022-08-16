@@ -3,7 +3,7 @@
     <h1 class="font-inter font-extrabold text-8xl">
       See what I&apos;ve been up to.
     </h1>
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+    <div class="my-4 grid grid-cols-1 lg:grid-cols-3 gap-4">
       <template v-for="(project, index) in ProjectList" :key="index">
         <project-card :info="project" />
       </template>
