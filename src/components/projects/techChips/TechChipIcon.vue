@@ -4,7 +4,7 @@
 
 <script setup>
 import { CodeIcon } from "@heroicons/vue/outline";
-import { ref } from "@vue/reactivity";
+import { shallowRef } from "@vue/reactivity";
 import { onMounted } from "@vue/runtime-core";
 import {
   AngularIcon,
@@ -19,7 +19,7 @@ import {
 
 const props = defineProps({ techName: String });
 
-const icon = ref(CodeIcon);
+let icon = shallowRef(CodeIcon);
 
 const matchTech = () => {
   switch (props.techName) {
