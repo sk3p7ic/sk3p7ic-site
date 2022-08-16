@@ -15,6 +15,7 @@ import {
   SassIcon,
   TailwindcssIcon,
   TypescriptIcon,
+  VuedotjsIcon,
 } from "vue3-simple-icons";
 
 const props = defineProps({ techName: String });
@@ -46,6 +47,9 @@ const matchTech = () => {
       break;
     case "typescript":
       icon.value = TypescriptIcon;
+      break;
+    case "vue":
+      icon.value = VuedotjsIcon;
       break;
     default:
       icon.value = CodeIcon;
