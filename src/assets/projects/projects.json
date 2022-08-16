@@ -3,6 +3,7 @@
     "title": "JagTrucks",
     "headerImgSrc": "projects/img/jag_trucks.png",
     "description": "A basic proof-of-concept website for allowing students at the TAMU-SA campus to more easily find which food trucks are on campus on a given day, and more.",
+    "type": "fullstack",
     "techs": [
       ["React", "react"],
       ["Bootstrap", "bootstrap"],
@@ -32,6 +33,7 @@
     "title": "Personal Website",
     "headerImgSrc": "projects/img/personal_site.png",
     "description": "My personal portofolio website, written in React using Tailwind CSS.",
+    "type": "frontend",
     "techs": [
       ["React", "react"],
       ["Tailwind CSS", "tailwind"],
@@ -49,6 +51,7 @@
     "title": "Sorting Visualizer",
     "headerImgSrc": "projects/img/sorting_visualizer.png",
     "description": "A basic web application allowing a user to view various common sorting algorithms in use.",
+    "type": "frontend",
     "techs": [
       ["Angular", "angular"],
       ["Sass", "sass"]
