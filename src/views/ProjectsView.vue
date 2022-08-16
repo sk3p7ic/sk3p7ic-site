@@ -1,6 +1,10 @@
 <template>
-  <div class="bg-gray-100 text-gray-800 pt-24 md:pt-48 px-4 md:px-8 lg:px-36">
-    <h1 class="font-inter font-extrabold text-8xl">
+  <div
+    class="bg-gray-100 text-gray-800 pt-24 md:pt-48 px-4 md:px-8 xl:px-36 flex flex-col"
+  >
+    <h1
+      class="pb-3 font-inter font-extrabold text-6xl lg:text-8xl border-b-2 border-b-gray-800"
+    >
       See what I&apos;ve been up to.
     </h1>
     <div class="my-4 grid grid-cols-1 lg:grid-cols-3 gap-4">
