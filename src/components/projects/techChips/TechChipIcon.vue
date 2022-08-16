@@ -26,7 +26,7 @@ const matchTech = () => {
     case "angular":
       icon.value = AngularIcon;
       break;
-    case "boostrap":
+    case "bootstrap":
       icon.value = BootstrapIcon;
       break;
     case "mongodb":
