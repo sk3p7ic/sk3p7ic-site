@@ -38,11 +38,11 @@
           >
             <template v-for="(page, index) of pages" :key="index">
               <a
+                :href="page.href"
                 :class="{ active: page.name === $route.name }"
                 class="block my-2 px-3 py-1 rounded-lg transition-colors"
               >
                 <span
-                  :href="page.href"
                   :class="{
                     'hover:text-fuchsia-400': page.name !== $route.name,
                   }"
