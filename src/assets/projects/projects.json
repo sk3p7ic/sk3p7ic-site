@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Personal Website",
+    "headerImgSrc": "",
+    "description": "My personal portofolio website, written in React using Tailwind CSS.",
+    "techs": [
+      ["React", "react"],
+      ["Tailwind CSS", "tailwind"],
+      ["TypeScript", "typescript"]
+    ],
+    "links": [
+      {
+        "type": "deployed",
+        "url": "https://joshuaibrom.com"
+      }
+    ]
+  },
+  {
+    "title": "JagTrucks",
+    "headerImgSrc": "",
+    "description": "A basic proof-of-concept website for allowing students at the TAMU-SA campus to more easily find which food trucks are on campus on a given day, and more.",
+    "techs": [
+      ["React", "react"],
+      ["Bootstrap", "bootstrap"],
+      ["Node.js", "node"],
+      ["Express", "express"],
+      ["MongoDB", "mongodb"]
+    ],
+    "links": [
+      {
+        "type": "deployed",
+        "url": "https://wad-jagtrucks.herokuapp.com"
+      }
+    ]
+  },
+  {
+    "title": "Sorting Visualizer",
+    "headerImgSrc": "",
+    "description": "A basic web application allowing a user to view various common sorting algorithms in use.",
+    "techs": [
+      ["Angular", "angular"],
+      ["Sass", "sass"]
+    ],
+    "links": [
+      {
+        "type": "deployed",
+        "url": "http://sorting.sk3p7ic.tech"
+      }
+    ]
+  }
+]
