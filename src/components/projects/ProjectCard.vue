@@ -4,7 +4,7 @@
       <img :src="info.headerImgSrc" />
     </div>
     <h1>{{ info.title }}</h1>
-    <div>
+    <div class="flex flex-row flex-wrap gap-2">
       <template
         v-for="([techFullName, techName], index) in info.techs"
         :key="index"
