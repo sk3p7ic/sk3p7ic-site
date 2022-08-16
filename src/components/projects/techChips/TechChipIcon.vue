@@ -12,6 +12,7 @@ import {
   MongodbIcon,
   NodedotjsIcon,
   ReactIcon,
+  SassIcon,
   TailwindcssIcon,
   TypescriptIcon,
 } from "vue3-simple-icons";
@@ -36,6 +37,9 @@ const matchTech = () => {
       break;
     case "react":
       icon.value = ReactIcon;
+      break;
+    case "sass":
+      icon.value = SassIcon;
       break;
     case "tailwind":
       icon.value = TailwindcssIcon;
