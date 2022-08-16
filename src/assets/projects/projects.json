@@ -1,21 +1,5 @@
 [
   {
-    "title": "Personal Website",
-    "headerImgSrc": "",
-    "description": "My personal portofolio website, written in React using Tailwind CSS.",
-    "techs": [
-      ["React", "react"],
-      ["Tailwind CSS", "tailwind"],
-      ["TypeScript", "typescript"]
-    ],
-    "links": [
-      {
-        "type": "deployed",
-        "url": "https://joshuaibrom.com"
-      }
-    ]
-  },
-  {
     "title": "JagTrucks",
     "headerImgSrc": "",
     "description": "A basic proof-of-concept website for allowing students at the TAMU-SA campus to more easily find which food trucks are on campus on a given day, and more.",
@@ -30,6 +14,22 @@
       {
         "type": "deployed",
         "url": "https://wad-jagtrucks.herokuapp.com"
+      }
+    ]
+  },
+  {
+    "title": "Personal Website",
+    "headerImgSrc": "projects/img/personal_site.png",
+    "description": "My personal portofolio website, written in React using Tailwind CSS.",
+    "techs": [
+      ["React", "react"],
+      ["Tailwind CSS", "tailwind"],
+      ["TypeScript", "typescript"]
+    ],
+    "links": [
+      {
+        "type": "deployed",
+        "url": "https://joshuaibrom.com"
       }
     ]
   },
