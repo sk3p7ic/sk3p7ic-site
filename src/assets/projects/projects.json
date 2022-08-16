@@ -30,6 +30,23 @@
     ]
   },
   {
+    "title": "This Website",
+    "headerImgSrc": "projects/img/this_site.png",
+    "description": "This website is intended to advertise my services as a fullstack developer.",
+    "type": "frontend",
+    "techs": [
+      ["Vue.js", "vue"],
+      ["Tailwind CSS", "tailwind"]
+    ],
+    "links": [
+      {
+        "type": "deployed",
+        "url": "https://sk3p7ic.tech",
+        "tooltip": ""
+      }
+    ]
+  },
+  {
     "title": "Personal Website",
     "headerImgSrc": "projects/img/personal_site.png",
     "description": "My personal portofolio website, written in React using Tailwind CSS.",
