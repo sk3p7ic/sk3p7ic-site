@@ -2,7 +2,7 @@
   <div class="flex-grow flex flex-col bg-gray-200 rounded-md">
     <div class="relative w-full h-auto">
       <img
-        :src="info.headerImgSrc"
+        :src="getImgSrc()"
         alt="Project screenshot / render"
         class="rounded-t-md"
       />
@@ -60,6 +60,10 @@ import { GithubIcon } from "vue3-simple-icons";
 const props = defineProps({ info: Object });
 const info = props.info;
 const deployedLink = info.links.find(({ type }) => type === "deployed");
+
+const getImgSrc = () => {
+  return `/projects/${info.headerImgSrc}`;
+};
 
 const getGithubLinks = () => {
   return info.links.filter(({ type }) => type === "github-repo");

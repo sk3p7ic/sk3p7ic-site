@@ -8,7 +8,7 @@
       See what I&apos;ve been up to.
     </h1>
     <div class="my-4 grid grid-cols-1 lg:grid-cols-3 gap-4">
-      <template v-for="(project, index) in ProjectList" :key="index">
+      <template v-for="(project, index) in projects" :key="index">
         <project-card :info="project" />
       </template>
     </div>
@@ -19,8 +19,20 @@
 <script setup>
 import SiteFooter from "../components/SiteFooter.vue";
 
-import ProjectList from "../assets/projects/projects.json";
 import ProjectCard from "../components/projects/ProjectCard.vue";
+import { ref } from "@vue/reactivity";
+
+const projects = ref([]);
+
+const getProjects = async () => {
+  const rawProjects = await fetch(
+    "https://sk3p7ic-backend.herokuapp.com/api/projects"
+  );
+  const projectData = Object.values(await rawProjects.json());
+  projects.value = projectData;
+};
+
+getProjects();
 </script>
 
 <style></style>
