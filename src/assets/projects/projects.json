@@ -1,7 +1,7 @@
 [
   {
     "title": "JagTrucks",
-    "headerImgSrc": "projects/img/jag_trucks.png",
+    "headerImgSrc": "project/img/jag_trucks.png",
     "description": "A basic proof-of-concept website for allowing students at the TAMU-SA campus to more easily find which food trucks are on campus on a given day, and more.",
     "type": "fullstack",
     "techs": [
@@ -30,13 +30,14 @@
     ]
   },
   {
-    "title": "This Website",
-    "headerImgSrc": "projects/img/this_site.png",
-    "description": "This website is intended to advertise my services as a fullstack developer.",
+    "title": "Sk3p7ic Dev",
+    "headerImgSrc": "project/img/sk3p7ic_dev.png",
+    "description": "Website intended to advertise my services as a fullstack developer.",
     "type": "frontend",
     "techs": [
       ["Vue.js", "vue"],
-      ["Tailwind CSS", "tailwind"]
+      ["Tailwind CSS", "tailwind"],
+      ["AWS", "aws"]
     ],
     "links": [
       {
@@ -48,7 +49,7 @@
   },
   {
     "title": "Personal Website",
-    "headerImgSrc": "projects/img/personal_site.png",
+    "headerImgSrc": "project/img/personal_site.png",
     "description": "My personal portofolio website, written in React using Tailwind CSS.",
     "type": "frontend",
     "techs": [
@@ -66,7 +67,7 @@
   },
   {
     "title": "Sorting Visualizer",
-    "headerImgSrc": "projects/img/sorting_visualizer.png",
+    "headerImgSrc": "project/img/sorting_visualizer.png",
     "description": "A basic web application allowing a user to view various common sorting algorithms in use.",
     "type": "frontend",
     "techs": [
