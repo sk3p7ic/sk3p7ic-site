@@ -28,7 +28,11 @@
     </div>
     <div class="flex-grow flex flex-col px-4 py-2 gap-2">
       <div class="flex flex-row justify-between items-center">
-        <h1 class="font-inter font-bold text-2xl">{{ info.title }}</h1>
+        <h1 class="font-inter font-bold text-2xl">
+          {{
+            info.title === "Sk3p7ic Web Dev Site" ? "This Website" : info.title
+          }}
+        </h1>
         <p class="w-min h-min px-2 bg-cyan-400 capitalize rounded-full">
           {{ info.type }}
         </p>
@@ -62,7 +66,7 @@ const info = props.info;
 const deployedLink = info.links.find(({ type }) => type === "deployed");
 
 const getImgSrc = () => {
-  return `https://sk3p7ic-backend.herokuapp.com/${info.headerImgSrc}`;
+  return `https://sk3p7ic-backend-bucket.s3.us-east-2.amazonaws.com/${info.headerImgSrc}`;
 };
 
 const getGithubLinks = () => {

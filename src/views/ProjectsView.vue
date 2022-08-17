@@ -26,10 +26,11 @@ const projects = ref([]);
 
 const getProjects = async () => {
   const rawProjects = await fetch(
-    "https://sk3p7ic-backend.herokuapp.com/api/projects"
+    "https://sk3p7ic-backend-bucket.s3.us-east-2.amazonaws.com/project/projects.json"
   );
   const projectData = Object.values(await rawProjects.json());
   projects.value = projectData;
+  console.log(projectData);
 };
 
 getProjects();
