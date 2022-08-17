@@ -62,7 +62,7 @@ const info = props.info;
 const deployedLink = info.links.find(({ type }) => type === "deployed");
 
 const getImgSrc = () => {
-  return `/projects/${info.headerImgSrc}`;
+  return `https://sk3p7ic-backend.herokuapp.com/${info.headerImgSrc}`;
 };
 
 const getGithubLinks = () => {
