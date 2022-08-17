@@ -29,9 +29,7 @@
     <div class="flex-grow flex flex-col px-4 py-2 gap-2">
       <div class="flex flex-row justify-between items-center">
         <h1 class="font-inter font-bold text-2xl">
-          {{
-            info.title === "Sk3p7ic Web Dev Site" ? "This Website" : info.title
-          }}
+          {{ info.title === "Sk3p7ic Dev" ? "This Website" : info.title }}
         </h1>
         <p class="w-min h-min px-2 bg-cyan-400 capitalize rounded-full">
           {{ info.type }}
