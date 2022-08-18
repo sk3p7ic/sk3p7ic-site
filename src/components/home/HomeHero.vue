@@ -20,12 +20,12 @@
         </h3>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
-        <a
-          href="/contact"
+        <button
+          @click="contactScroll()"
           class="p-4 bg-cyan-400 font-inter font-semibold text-xl text-center rounded-lg hover:bg-cyan-300 transition-all bg-opacity-90 hover:opacity-100 cursor-pointer"
         >
           Contact Me
-        </a>
+        </button>
         <a
           href="/projects"
           class="p-4 bg-cyan-100 font-inter font-semibold text-xl text-center rounded-lg hover:bg-cyan-300 transition-all bg-opacity-75 hover:opacity-100 cursor-pointer"
@@ -62,6 +62,10 @@ onDeactivated(() => {
   window.removeEventListener("scroll", handleScroll);
   window.removeEventListener("resize", handleResize);
 });
+
+const contactScroll = () => {
+  document.querySelector("#contact").scrollIntoView({ behavior: "smooth" });
+};
 </script>
 
 <style scoped>

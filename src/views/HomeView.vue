@@ -5,6 +5,7 @@
     <Services />
 
     <div
+      id="contact"
       class="flex flex-col gap-6 px-4 py-8 border-t-2 border-t-gray-800 shadow-inner items-center"
     >
       <h1 class="font-inter font-extrabold text-5xl">Like what you see?</h1>

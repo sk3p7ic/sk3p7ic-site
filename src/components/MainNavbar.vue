@@ -66,8 +66,8 @@ import { ref } from "@vue/reactivity";
 const pages = ref([
   { href: "/", name: "home", title: "Home" },
   { href: "/projects", name: "projects", title: "Projects" },
-  { href: "/about", name: "about", title: "About" },
-  { href: "/contact", name: "contact", title: "Contact" },
+  { href: "/#services", name: "services", title: "Services" },
+  { href: "/#contact", name: "contact", title: "Contact" },
 ]);
 </script>
 

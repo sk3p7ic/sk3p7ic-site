@@ -1,5 +1,6 @@
 <template>
   <div
+    id="services"
     class="p-4 xl:px-24 xl:py-8 bg-gradient-to-br from-cyan-400 to-fuchsia-400 via-blue-500"
   >
     <h1 class="font-inter font-bold text-3xl text-center">
