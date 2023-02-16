@@ -64,8 +64,8 @@ const socials = [
   {
     icon: TwitterIcon,
     site: "Twitter",
-    username: "@FizzedMr",
-    link: "https://twitter.com/fizzedmr",
+    username: "@real_sk3p7ic",
+    link: "https://twitter.com/real_sk3p7ic",
   },
 ];
 </script>
