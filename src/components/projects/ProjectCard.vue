@@ -7,6 +7,7 @@
         class="rounded-t-md"
       />
       <div class="absolute bottom-2 right-2 flex flex-row gap-2">
+        <!--
         <template
           v-for="({ url, tooltip }, index) in getGithubLinks()"
           :key="index"
@@ -24,29 +25,27 @@
             </div>
           </a>
         </template>
+-->
       </div>
     </div>
     <div class="flex-grow flex flex-col px-4 py-2 gap-2">
       <div class="flex flex-row justify-between items-center">
-        <h1 class="font-inter font-bold text-2xl">
+        <h1 class="flex-grow font-inter font-bold text-2xl">
           {{ info.title === "Sk3p7ic Dev" ? "This Website" : info.title }}
         </h1>
-        <p class="w-min h-min px-2 bg-cyan-400 capitalize rounded-full">
-          {{ info.type }}
+        <p class="h-min px-2 bg-cyan-400 capitalize rounded-full">
+          {{ info.category }}
         </p>
       </div>
       <div class="flex flex-row flex-wrap gap-2">
-        <template
-          v-for="([techFullName, techName], index) in info.techs"
-          :key="index"
-        >
-          <tech-chip :techName="techName">{{ techFullName }}</tech-chip>
+        <template v-for="(tech, index) in info.stack" :key="index">
+          <tech-chip :techName="tech">{{ tech }}</tech-chip>
         </template>
       </div>
       <p class="flex-grow">{{ info.description }}</p>
       <a
         v-if="deployedLink"
-        :href="deployedLink.url"
+        :href="deployedLink"
         target="_blank"
         rel="noreferrer noopener"
         class="p-2 bg-cyan-400 text-center font-inter font-bold text-xl border-2 border-cyan-800 hover:bg-cyan-600 hover:text-gray-50 cursor-pointer rounded-md transition-all"
@@ -61,14 +60,10 @@ import TechChip from "./techChips/TechChip.vue";
 import { GithubIcon } from "vue3-simple-icons";
 const props = defineProps({ info: Object });
 const info = props.info;
-const deployedLink = info.links.find(({ type }) => type === "deployed");
+const deployedLink = info?.deployment ?? undefined;
 
 const getImgSrc = () => {
-  return `https://sk3p7ic-backend-bucket.s3.us-east-2.amazonaws.com/${info.headerImgSrc}`;
-};
-
-const getGithubLinks = () => {
-  return info.links.filter(({ type }) => type === "github-repo");
+  return `https://joshuaibrom.com/${info.imageUrl}`;
 };
 </script>
 

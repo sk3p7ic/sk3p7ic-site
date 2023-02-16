@@ -26,10 +26,10 @@ const projects = ref([]);
 
 const getProjects = async () => {
   const rawProjects = await fetch(
-    "https://sk3p7ic-backend-bucket.s3.us-east-2.amazonaws.com/project/projects.json"
+    "https://www.joshuaibrom.com/projects/projects.json"
   );
   const projectData = Object.values(await rawProjects.json());
-  projects.value = projectData;
+  projects.value = projectData[0];
   console.log(projectData);
 };
 
