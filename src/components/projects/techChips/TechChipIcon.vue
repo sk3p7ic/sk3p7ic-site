@@ -8,11 +8,13 @@ import { shallowRef } from "@vue/reactivity";
 import { onMounted } from "@vue/runtime-core";
 import {
   AngularIcon,
+  AstroIcon,
   BootstrapIcon,
   MongodbIcon,
   NodedotjsIcon,
   ReactIcon,
   SassIcon,
+  SvelteIcon,
   TailwindcssIcon,
   TypescriptIcon,
   VuedotjsIcon,
@@ -26,6 +28,9 @@ const matchTech = () => {
   switch (props.techName) {
     case "angular":
       icon.value = AngularIcon;
+      break;
+    case "astro":
+      icon.value = AstroIcon;
       break;
     case "bootstrap":
       icon.value = BootstrapIcon;
@@ -41,6 +46,9 @@ const matchTech = () => {
       break;
     case "sass":
       icon.value = SassIcon;
+      break;
+    case "svelte":
+      icon.value = SvelteIcon;
       break;
     case "tailwind":
       icon.value = TailwindcssIcon;
